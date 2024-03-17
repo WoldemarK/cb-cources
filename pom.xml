@@ -25,7 +25,7 @@
 
         <java.version>11</java.version>
 
-        <guava.version>31.1-jre</guava.version>
+        <guava.version>32.0.0-jre</guava.version>
         <org.glassfish.jaxb-runtime.jaxb.version>2.3.3</org.glassfish.jaxb-runtime.jaxb.version>
         <org.glassfish.jaxb-core.jaxb.version>2.3.0.1</org.glassfish.jaxb-core.jaxb.version>
         <org.glassfish.jaxb-core.xjc.version>2.3.3</org.glassfish.jaxb-core.xjc.version>
