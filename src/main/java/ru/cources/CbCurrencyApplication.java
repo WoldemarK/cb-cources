@@ -7,10 +7,10 @@ import ru.cources.config.CurrencyClientConfig;
 
 @SpringBootApplication
 @EnableConfigurationProperties(CurrencyClientConfig.class)
-public class CbCourcesApplication {
+public class CbCurrencyApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CbCourcesApplication.class, args);
+        SpringApplication.run(CbCurrencyApplication.class, args);
     }
 
 }

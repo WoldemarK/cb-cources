@@ -32,6 +32,7 @@
         <spring-cloud.version>2023.0.0</spring-cloud.version>
         <jaxb2-maven-mapping-plugin.version>2.5</jaxb2-maven-mapping-plugin.version>
         <lifecycle-mapping-plugin.version>1.0.0</lifecycle-mapping-plugin.version>
+        <jaxb2-maven-plugin.version>2.5.0</jaxb2-maven-plugin.version>
 
     </properties>
 
@@ -144,7 +145,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>jaxb2-maven-plugin</artifactId>
-                <version>2.5.0</version>
+                <version>${jaxb2-maven-plugin.version}</version>
                 <executions>
                     <execution>
                         <id>xjc</id>
@@ -161,7 +162,6 @@
                     <clearOutputDir>false</clearOutputDir>
                     <packageName>ru.cources.schema</packageName>
                     <noGeneratedHeaderComments>true</noGeneratedHeaderComments>
-                    <!-- не понял почему но с этим не заволиться <execution>true</execution>-->
                     <generateEpisode>false</generateEpisode>
                 </configuration>
             </plugin>
